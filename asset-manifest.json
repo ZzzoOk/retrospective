@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/retrospective/static/css/main.479b5e50.css",
+    "main.js": "/retrospective/static/js/main.f5e0cd30.js",
+    "index.html": "/retrospective/index.html",
+    "main.479b5e50.css.map": "/retrospective/static/css/main.479b5e50.css.map",
+    "main.f5e0cd30.js.map": "/retrospective/static/js/main.f5e0cd30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.479b5e50.css",
+    "static/js/main.f5e0cd30.js"
+  ]
+}
