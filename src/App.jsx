@@ -9,7 +9,6 @@ function App() {
 
   const [username, setUsername] = useState(localStorage.getItem('username'));
   const [login, setLogin] = useState(localStorage.getItem('username') ? 'Logout' : 'Login');
-  const [editable, setEditable] = useState(false);
 
   const showModal = () => {
     if (username) {
@@ -33,7 +32,7 @@ function App() {
         <div className='username'>{username}</div>
         <button onClick={showModal}>{login}</button>
       </header>
-      <h1 onDoubleClick={() => setEditable(true)} onBlur={() => setEditable(false)} contentEditable={editable}>retrospective</h1>
+      <h1 contentEditable={true}>retrospective</h1>
       <CardList key={0} type='good' card={goodCards} />
       <CardList key={1} type='bad' card={badCards} />
       <CardList key={2} type='idea' card={ideaCards} />
